@@ -3,31 +3,7 @@ import javax.swing.border.Border;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-/*
-class MyMouse extends JFrame
-{
-    JLabel lbl = new JLabel("");
-    public MyMouse()
-    {
-        super("Dude! Where's my mouse ?");
-        setSize(400,400);
-        setLayout(new BorderLayout());
-        add(lbl,BorderLayout.SOUTH);
-        addMouseListener(new MouseListener()
-        {
-            public void mouseExited(MouseEvent a){}
-            public void mouseClicked(org.w3c.dom.events.MouseEvent a)
-            {
-                lbl.setText("X="+a.getX()+" Y="+a.getY());
-            }
-            public void mouseEntered(MouseEvent a) {}
-            public void mouseReleased(MouseEvent a) {}
-            public void mousePressed(MouseEvent a) {}
-        });
-    }
-    */
+
 class LabExample extends JFrame
 {
     Font fnt = new Font("Times new roman",Font.BOLD,20);
